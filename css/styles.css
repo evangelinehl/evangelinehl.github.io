@@ -5,3 +5,23 @@ html {
 nav {
     padding: 30px;
 }
+
+#index-navigator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#about-navigator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#photography-navigator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#social-navigator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
