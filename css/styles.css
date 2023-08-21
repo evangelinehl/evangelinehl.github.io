@@ -9,21 +9,37 @@ nav {
 #index-navigator {
     margin-left: 10px;
     margin-right: 10px;
+    font-family: Baskerville, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #about-navigator {
     margin-left: 10px;
     margin-right: 10px;
+    font-family: Baskerville, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #photography-navigator {
     margin-left: 10px;
     margin-right: 10px;
+    font-family: Baskerville, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #social-navigator {
     margin-left: 10px;
     margin-right: 10px;
+    font-family: Baskerville, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #header-image {
@@ -35,5 +51,5 @@ nav {
     color: white;
     padding: 12px 28px;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
 }
