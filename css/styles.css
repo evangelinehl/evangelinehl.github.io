@@ -5,29 +5,33 @@ html {
 }
 
 nav {
-    padding: 30px;
+    padding: 10%;
 }
 
 #index-navigator {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 #about-navigator {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 #photography-navigator {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 #social-navigator {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 #header-image {
-    margin: 15px;
+    margin: 5%;
+}
+
+#back-button {
+    background-color: darkgreen;
 }
