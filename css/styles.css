@@ -1,5 +1,7 @@
 html {
     background-color: rgb(236, 255, 250);
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 nav {
@@ -28,8 +30,4 @@ nav {
 
 #header-image {
     margin: 15px;
-}
-
-#social-link {
-    margin: 10px;
 }
