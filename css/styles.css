@@ -1,35 +1,33 @@
 html {
     background-color: rgb(236, 255, 250);
-    margin-left: 8%;
-    margin-right: 8%;
 }
 
 nav {
-    padding: 5%;
+    padding: 20px;
 }
 
 #index-navigator {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #about-navigator {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #photography-navigator {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #social-navigator {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #header-image {
-    margin: 3%;
+    margin: 10px;
 }
 
 #back-button {
