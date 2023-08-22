@@ -7,6 +7,14 @@ nav {
     background-color: rgb(175, 226, 255);
 }
 
+footer {
+    font-size: 12px;
+}
+
+p {
+    max-width: 600px;
+}
+
 #index-navigator {
     margin-left: 10px;
     margin-right: 10px;
