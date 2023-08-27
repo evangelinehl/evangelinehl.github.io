@@ -68,7 +68,7 @@ p {
     column-gap: 30px;
 }
 
-.grid-item {
+#grid-photo {
     width: 375px;
     height: 250px;
 }
