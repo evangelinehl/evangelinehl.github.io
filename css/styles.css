@@ -62,3 +62,8 @@ p {
     text-align: center;
     font-size: 15px;
 }
+
+.photo-grid {
+    display: grid;
+    column-gap: 30px;
+}
