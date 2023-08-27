@@ -67,3 +67,8 @@ p {
     display: grid;
     column-gap: 30px;
 }
+
+.grid-item {
+    width: 50%;
+    height: 50%;
+}
