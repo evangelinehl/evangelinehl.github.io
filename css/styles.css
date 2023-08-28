@@ -65,7 +65,8 @@ p {
 
 .photo-grid {
     display: grid;
-    column-gap: 30px;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
 }
 
 #grid-photo {
