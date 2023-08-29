@@ -77,7 +77,7 @@ p {
     grid-template-columns: auto auto auto;
     row-gap: 10px;
     column-gap: 10px;
-    width: 50%;
+    width: 60%;
 }
 
 #gallery-cover {
