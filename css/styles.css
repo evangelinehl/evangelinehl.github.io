@@ -75,9 +75,9 @@ p {
 .gallery-grid {
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-auto-flow: dense;
     row-gap: 10px;
     column-gap: 10px;
-    max-width: 1500px;
 }
 
 #gallery-cover {
