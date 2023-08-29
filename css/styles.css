@@ -72,6 +72,18 @@ p {
     column-gap: 10px;
 }
 
+.gallery-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#gallery-cover {
+    width: 300px;
+    height: 200px;
+}
+
 #grid-photo {
     width: 375px;
     height: 250px;
