@@ -119,6 +119,11 @@ input[type=email] {
     box-sizing: border-box;
 }
 
+.required-field::after {
+    content: "*";
+    color: red;
+}
+
 textarea {
     padding: 12px 20px;
     margin: 10px;

@@ -29,11 +29,11 @@
             <a href="https://highschool.latimes.com/author/hsiyinl/">LA Times HS Insider</a><br><br>
             <h2>send me an email!</h2>
             <form action="https://formspree.io/f/xvojrobv" method="post">
-              <p>Name*: <input type="text" name="name" pattern="[A-Za-z]" required maxlength="70"></p>
-              <p>Email*: <input type="email" name="email" required></p>
+              <p>Name: <input type="text" name="name" pattern="[A-Za-z]" class="required-field" required maxlength="70"></p>
+              <p>Email: <input type="email" name="email" class="required-field" required></p>
               <p>Subject: <input type="text" name="subject"></p>
-              <p>Message*:</p>
-              <p><textarea type="text" name="message" rows="10" cols="50" required></textarea></p>
+              <p>Message:</p>
+              <p><textarea type="text" name="message" rows="10" cols="50" class="required-field" required></textarea></p>
               <button id="send-button" type="submit">Send</button>
             </form>
             <p id="required-message">Required fields are marked with an asterisk (*)</p>
