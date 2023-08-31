@@ -99,3 +99,10 @@ p {
     width: 375px;
     height: 250px;
 }
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
