@@ -30,10 +30,10 @@
             <h2>send me an email!</h2>
             <form action="https://formspree.io/f/xvojrobv" method="post">
               <p>Name: <input type="text" name="name" pattern="[A-Za-z]" required maxlength="70"></p>
-              <p>Email: <input type="email" name="email"></p>
+              <p>Email: <input type="email" name="email" required></p>
               <p>Subject: <input type="text" name="subject"></p>
               <p>Message:</p>
-              <p><textarea type="text" name="message" rows="10" cols="50">Leave a message...</textarea></p>
+              <p><textarea type="text" name="message" rows="10" cols="50" required></textarea></p>
               <button id="send-button" type="submit">Send</button>
             </form>
         </center>
