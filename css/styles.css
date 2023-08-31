@@ -75,6 +75,11 @@ p {
     margin-bottom: 10px;
 }
 
+#required-message {
+    font-size: 12px;
+    color: red;
+}
+
 .photo-grid {
     display: grid;
     grid-template-columns: auto auto auto;
