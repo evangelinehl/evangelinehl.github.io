@@ -183,7 +183,8 @@ textarea {
 }
   
 .image-slide {
-    width: 100%;
+    width: 750px;
+    height: 500px;
 }
   
 .modal-preview {
