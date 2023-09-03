@@ -42,6 +42,15 @@ p {
     text-decoration: none;
 }
 
+#video-navigator {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Baskerville, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #social-navigator {
     margin-left: 10px;
     margin-right: 10px;
@@ -85,6 +94,14 @@ p {
 .gallery-grid {
     display: grid;
     grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 70%;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: auto auto;
     row-gap: 10px;
     column-gap: 10px;
     width: 70%;
@@ -182,8 +199,8 @@ textarea {
 }
   
 .image-slide {
-    width: 750px;
-    height: 500px;
+    width: 900px;
+    height: 600px;
     margin: 30px 30px 30px 30px;
 }
   
