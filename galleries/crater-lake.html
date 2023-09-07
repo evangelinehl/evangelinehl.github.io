@@ -45,6 +45,10 @@
     </body>
 
   <!-- Starter code for lightbox courtesy to free code camp with my own modifications-->
+  <!-- This is your lightbox, it is contained in a modal. Here you provide all the images,
+     controls, and another set of preview images as the dots. Dots show your user which
+     image is currently active. Note that you use entities (e.g. &times;), more info on
+     them at the bottom. -->
   
     <center>
         <div id="Lightbox" class="modal">
@@ -71,6 +75,27 @@
           
             <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
             <a class="next" onclick="changeSlide(1)">&#10095;</a>
+          
+            <div class="dots">
+              <div class="col">
+                  <img src="/img/galleries/crater-lake/crater-lake1.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="crater-lake1" />
+              </div>
+              <div class="col">
+                  <img src="/img/galleries/crater-lake/crater-lake2.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="crater-lake2" />
+              </div>
+              <div class="col">
+                  <img src="/img/galleries/crater-lake/crater-lake3.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="crater-lake3" />
+              </div>
+              <div class="col">
+                  <img src="/img/galleries/crater-lake/crater-lake4.jpg" class="modal-preview hover-shadow" onclick="toSlide(4)" alt="crater-lake4" />
+              </div>
+              <div class="col">
+                  <img src="/img/galleries/crater-lake/crater-lake5.jpg" class="modal-preview hover-shadow" onclick="toSlide(5)" alt="crater-lake5" />
+              </div>
+              <div class="col">
+                  <img src="/img/galleries/crater-lake/crater-lake6.jpg" class="modal-preview hover-shadow" onclick="toSlide(6)" alt="crater-lake6" />
+              </div>
+            </div>
           </div>
         </div>
     </center>

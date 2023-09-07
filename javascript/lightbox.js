@@ -5,7 +5,7 @@ let slideIndex = 1;
 showSlide(slideIndex);
 
 // You are providing the functionality for your clickable content, which is 
-// your previews, controls and the close button.
+// your previews, dots, controls and the close button.
 
 function openLightbox() {
   document.getElementById('Lightbox').style.display = 'block';
